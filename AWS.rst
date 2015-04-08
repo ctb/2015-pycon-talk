@@ -61,7 +61,7 @@ Build a project.csv file::
 
    cd /disk
    cat >project.csv <<EOF
-   sample1,HG002run1_S1,batch1,normal,male,
+   sample1,HG002,batch1,normal,male,
    EOF
 
 Build a new project config file::
@@ -156,7 +156,7 @@ Now, go grab some VCF files from an Ashkenazi trio::
    done
 
    for i in *.vep.vcf; do
-      gemini load -v $i -t VEP $(basename $i .vcf).db;
+      gemini load -v $i -t VEP $(basename $i .vcf).db --cores 8
    done
 
 
