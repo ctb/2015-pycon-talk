@@ -158,9 +158,3 @@ Now, go grab some VCF files from an Ashkenazi trio::
    for i in *.vep.vcf; do
       gemini load -v $i -t VEP $(basename $i .vcf).db --cores 8
    done
-
-
-#warning: variant with multiple alternate alleles found.
-#         in order to reduce the number of false negatives
-#         we recommend to split multiple alts. see:                 http://gemini.readthedocs.org/en/latest/content/preprocessing.html#preprocess
-#
