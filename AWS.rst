@@ -58,7 +58,9 @@ This will take a while...
 
 .. #/disk/bcbio/anaconda/bin/bcbio_nextgen.py upgrade --tooldir=/disk/tools --genomes GRCh37 --aligners bwa --aligners bowtie2 --data
 
-After the install finishes (successfully, one hopes!), download some data sets@@::
+After the install finishes (successfully, one hopes!), download some
+`data sets
+<ftp://ftp-trace.ncbi.nih.gov/giab/ftp/technical/NISTAshkenazimTrio/>`__::
 
    cd /disk
    curl -O ftp://ftp-trace.ncbi.nih.gov/giab/ftp/technical/NISTAshkenazimTrio/HG-002_Homogeneity-10953946/HG002Run02-11611685/HG002-Run2_S1.bam
@@ -85,7 +87,7 @@ And now run it! ::
 Installing and running Gemini, for investigating variants
 ---------------------------------------------------------
 
-`Gemini <http://gemini.readthedocs.org>`__ is a database systesm for exploring human variants.
+`Gemini <http://gemini.readthedocs.org>`__ is a database system for exploring human variants.
 
 Go to your work directory::
 
